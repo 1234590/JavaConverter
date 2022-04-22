@@ -1,4 +1,4 @@
-package Maps;
+
 import  java.util.*;
 import java.util.Map;
 import java.util.HashMap;
@@ -24,6 +24,8 @@ public class Converter {
 
         for (int currentInt : decimals)
             myMap.put(currentInt, alphabet);
+        
+        System.out.printf("Press 1 to convert Decimals to Text\nPress 2 to convert Text to Decimlas");
 
         int press=Integer.parseInt(scanner.nextLine());
         switch (press) {
